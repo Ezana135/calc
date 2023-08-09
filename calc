@@ -19,5 +19,3 @@ while Input== True:
     else:
         print ("please enter a valid operator")
         Input = True
-
-        print("hello world")
