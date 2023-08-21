@@ -1,2 +1,22 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+Input= True
+while Input== True:
+    n1 = input("please enter one number?  ")
+    n2 = input("please enter another number?  ")
+    op = input("please enter an operator (+)(-)(*)(/)? ")
+    add = float(n1)+float(n2)
+    subtract =float(n1)-float(n2)
+    multiply = float(n1)*float(n2)
+    divide = float(n1)/float(n2)
+    Input = False
+    if op == "+":
+        print("add= ", add)
+    elif op == "-":
+        print("subtract= ", subtract)
+    elif op =="*":
+        print("multiply= ", multiply)
+    elif op == "/":
+        print("divide= ", divide)
+    else:
+        print ("please enter a valid operator")
+        Input = True
+        
